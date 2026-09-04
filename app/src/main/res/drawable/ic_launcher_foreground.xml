@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Shield Outer Glow / Base -->
+    <path
+        android:pathData="M54,24 L78,35 C78,59 54,82 54,82 C54,82 30,59 30,35 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="24"
+                android:endX="54"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#0284C7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Shield Inner Body -->
+    <path
+        android:pathData="M54,28 L74,37.5 C74,57 54,77 54,77 C54,77 34,57 34,37.5 Z"
+        android:fillColor="#0B1329" />
+    <!-- Location Pin -->
+    <path
+        android:pathData="M54,35 C48.5,35 44,39.5 44,45 C44,52.5 54,64 54,64 C54,64 64,52.5 64,45 C64,39.5 59.5,35 54,35 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="44"
+                android:startY="35"
+                android:endX="64"
+                android:endY="64"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F0FF" />
+                <item android:offset="1.0" android:color="#38BDF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Pin Center Core -->
+    <path
+        android:pathData="M54,45m-4,0a4,4 0 1,1 8,0a4,4 0 1,1 -8,0"
+        android:fillColor="#0B1329" />
+</vector>

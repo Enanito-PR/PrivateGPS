@@ -1,0 +1,6 @@
+{
+  "name": "Privacidad GPS",
+  "description": "Simula y protege la ubicación geográfica en tiempo real con selección manual de ciudades mundiales, desplazamiento realista y persistencia en segundo plano.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
